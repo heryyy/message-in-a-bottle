@@ -1,0 +1,43 @@
+/* Gaya Umum */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: #838372;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#lyrics {
+    font-size: 2.2em; /* Atur ukuran font di sini */
+    white-space: pre-wrap; /* Pastikan garis baru terjaga */
+    text-align: left;
+    margin: 0 auto;
+    width: 100%;
+    line-height: 1.5;
+    display: none; /* Sembunyikan lirik di awal */
+}
+
+/* Gaya Tombol */
+#startButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#startButton:hover {
+    background-color: #0056b3;
+}
